@@ -9,6 +9,12 @@ This project is to deploy a container that mounts a REST API to send HTTP POST r
 
 We can create the container image locally or use the image uploaded to DockerHub. To create the container locally and run it, we can run the following commands:
 ```bash
-docker build -t health .
-docker run -p8888:8888 --rm health
+docker build -t healthy .
+docker run -p8888:8888 --rm healthy
+```
+
+To use the DockerHub image we can use the following command:
+
+```bash
+docker pull procamora/healthy
 ```
