@@ -1,3 +1,5 @@
+.idea/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +129,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+Sera borrado .idea/.gitignore
+Sera borrado .idea/healthy.iml
+Sera borrado .idea/inspectionProfiles/
+Sera borrado .idea/misc.xml
+Sera borrado .idea/modules.xml
+Sera borrado .idea/vcs.xml
+Sera borrado Dockerfile
+Sera borrado health.py
+Sera borrado requirements.txt
